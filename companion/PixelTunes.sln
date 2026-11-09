@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{483ED8A2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelTunes.Tests", "tests\PixelTunes.Tests\PixelTunes.Tests.csproj", "{F4F54D17-A445-4269-BFAE-A96A2E436D71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelTunes.Companion", "src\PixelTunes.Companion\PixelTunes.Companion.csproj", "{0975EED4-DBAA-42FD-A90A-78F48BADBA85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{F4F54D17-A445-4269-BFAE-A96A2E436D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F54D17-A445-4269-BFAE-A96A2E436D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F54D17-A445-4269-BFAE-A96A2E436D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0975EED4-DBAA-42FD-A90A-78F48BADBA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0975EED4-DBAA-42FD-A90A-78F48BADBA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0975EED4-DBAA-42FD-A90A-78F48BADBA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0975EED4-DBAA-42FD-A90A-78F48BADBA85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D85045F-4640-4A1D-BD38-D2430BAB8E50} = {70EC9C1D-108A-482F-8687-BA9F86B7DAAC}
 		{F4F54D17-A445-4269-BFAE-A96A2E436D71} = {483ED8A2-74EB-4833-8BC4-FA6FBCBBFBB0}
+		{0975EED4-DBAA-42FD-A90A-78F48BADBA85} = {70EC9C1D-108A-482F-8687-BA9F86B7DAAC}
 	EndGlobalSection
 EndGlobal
