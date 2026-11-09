@@ -1,0 +1,20 @@
+<Bindings>
+  <Binding name="PIXELTUNES_PLAYPAUSE" header="PIXELTUNES" category="ADDONS">
+    PixelTunes_Send("playpause")
+  </Binding>
+  <Binding name="PIXELTUNES_NEXT" category="ADDONS">
+    PixelTunes_Send("next")
+  </Binding>
+  <Binding name="PIXELTUNES_PREV" category="ADDONS">
+    PixelTunes_Send("prev")
+  </Binding>
+  <Binding name="PIXELTUNES_VOLUP" category="ADDONS">
+    PixelTunes_Send("volup")
+  </Binding>
+  <Binding name="PIXELTUNES_VOLDOWN" category="ADDONS">
+    PixelTunes_Send("voldown")
+  </Binding>
+  <Binding name="PIXELTUNES_TOGGLE" category="ADDONS">
+    PixelTunes_TogglePanel()
+  </Binding>
+</Bindings>
