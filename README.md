@@ -46,6 +46,9 @@ Exclusive **Fullscreen** may hide the screen from the companion and the popup ca
 - Compact one-row panel: `<< | Play / Pause | >> | Vol - +`. Hover the panel's edge for its name and tips.
 - `/ptunes scale 0.8` (0.5 to 2) makes the panel smaller or bigger.
 
+## What's new in 0.4.4
+- No more "PixelTunes is running" notification when the app starts. It starts quietly in the tray.
+
 ## What's new in 0.4.3
 - Volume: if Windows refuses access to an app's volume slider, PixelTunes now changes the app's
   per-speaker volumes instead (same effect on loudness; the mixer slider itself may not move).

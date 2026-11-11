@@ -2,7 +2,7 @@ namespace PixelTunes.Companion;
 
 internal static class Program
 {
-    public const string Version = "0.4.3";
+    public const string Version = "0.4.4";
 
     [STAThread]
     private static void Main(string[] args)

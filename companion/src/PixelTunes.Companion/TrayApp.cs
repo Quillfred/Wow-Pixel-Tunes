@@ -107,8 +107,6 @@ internal sealed class TrayApp : ApplicationContext
             Visible = true,
         };
         _tray.DoubleClick += (_, _) => ShowDiagnostics();
-        _tray.ShowBalloonTip(4000, "PixelTunes is running",
-            "It lives here in the system tray. Double-click the icon for diagnostics.", ToolTipIcon.Info);
 
         _timer = new System.Windows.Forms.Timer { Interval = _settings.PollIntervalMs };
         _timer.Tick += (_, _) => Tick();
